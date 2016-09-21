@@ -12,14 +12,12 @@ class CfgPatches {
     };
 };
 
-class CfgFunctions
-{
-    class DB_connect {
-        tag = "DBC";
-        class DataBase
-        {
-            file = "\side_server\Functions\DataBase";
-            class asyncCall {};
+class CfgFunctions {
+	class DB_connect {
+        	tag = "DBC";
+        	class DataBase {
+            		file = "\side_server\Functions\DataBase";
+            		class asyncCall {};
 		};
 	};
 };
